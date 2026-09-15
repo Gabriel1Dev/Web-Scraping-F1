@@ -1,0 +1,22 @@
+| Web-Scraping-F1 |
+
+Este projeto foi desenvolvido com o objetivo de conhecer algumas bibliotecas do Python,
+além de praticar a utilização de .json para armazenamento de dados.
+
+----------------------------------------------
+
+Tecnologias utilizadas:
+
+- Python
+- MySQL
+- 
+
+----------------------------------------------
+
+Funcionalidade:
+
+O programa é bem simples, sempre que é executado ele armazena os dados da tabela de ranking da Formula 1
+em um json para backup e também em um banco de dados relacional MySQL.
+Porém possui delimitações, pois ele não adquire os dados da tabela mais recente da F1 porque o link que 
+foi passado para o Python é da tabela de 2024, o que significa que ele não atualiza a url.
+
